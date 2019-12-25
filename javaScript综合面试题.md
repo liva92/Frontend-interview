@@ -2,7 +2,13 @@
 
 标签（空格分隔）： JavaScript 面试 前端
 
+
+
 ---
+
+[TOC]
+
+
 
 ### 1.call和apply的区别是什么，哪个性能更好？
 
@@ -304,67 +310,69 @@ function $attr(property, value) {
 
 ### 10、正则给英语单词前后加空格
 
-![reg00](C:\Users\67564\Desktop\面试\images\reg00.png)
+C:\Users\67564\Desktop\面试\Frontend-interview\images
+
+![reg00](C:\Users\67564\Desktop\面试\Frontend-interview\images\reg00.png)
 
 ### 11、数组扁平化及去重[1,2[2,4,[4,6,[7,8]]]]
 
 11.1使用ES6提供的`Array.prototype.flat` 和`new Set()`
 
-![1574824123405](C:\Users\67564\Desktop\面试\images\reg01.png)
+![1574824123405](C:\Users\67564\Desktop\面试\Frontend-interview\images\reg01.png)
 
 11.2 将数组变为字符串
 
-![arr00](C:\Users\67564\Desktop\面试\images\arr00.png)
+![arr00](C:\Users\67564\Desktop\面试\Frontend-interview\images\arr00.png)
 
 11.3调用`JSON.stringify`
 
-![arr01](C:\Users\67564\Desktop\面试\images\arr01.png)
+![arr01](C:\Users\67564\Desktop\面试\Frontend-interview\images\arr01.png)
 
 11.4基于数组的`some()`方法判断
 
-![1574825672241](C:\Users\67564\Desktop\面试\images\arr02.png)
+![1574825672241](C:\Users\67564\Desktop\面试\Frontend-interview\images\arr02.png)
 
 11.5 递归处理
 
-![1574826024914](C:\Users\67564\Desktop\面试\images\arr03.png)
+![1574826024914](C:\Users\67564\Desktop\面试\Frontend-interview\images\arr03.png)
 
 
 
 ###  12、实现一个` _new`方法，模拟内置`new`的结果
 
-![1574827103802](C:\Users\67564\Desktop\面试\images\fn00.png)
+![1574827103802](C:\Users\67564\Desktop\面试\Frontend-interview\images\fn00.png)
 
-![1574826920665](C:\Users\67564\Desktop\面试\images\fn.01.png)
+![1574826920665](C:\Users\67564\Desktop\面试\Frontend-interview\Frontend-interview\images\fn.01.png)
 
 ### 13、数组合并
 
-![1574846311291](C:\Users\67564\Desktop\面试\images\arr04.png)
+![1574846311291](C:\Users\67564\Desktop\面试\Frontend-interview\images\arr04.png)
 
 13.1用数组`includes`方法和索引记录
 
-![1574846565631](C:\Users\67564\Desktop\面试\images\arr05.png)
+![1574846565631](C:\Users\67564\Desktop\面试\Frontend-interview\images\arr05.png)
 
-13.2 使用字符串`localeCompare()`方法![1574993199324](C:\Users\67564\Desktop\面试\images\arr06.png)
+13.2 使用字符串`localeCompare()`方法![1574993199324](C:\Users\67564\Desktop\面试\Frontend-interview\images\arr06.png)
 
 ### 14、setTimeou异步处理
 
-![1574993600579](C:\Users\67564\Desktop\面试\images\asnys00.png)
+![1574993600579](C:\Users\67564\Desktop\面试\Frontend-interview\images\asnys00.png)
 
 ### 15、匿名函数调用
 
 15.1 
 
-![1574993953876](C:\Users\67564\Desktop\面试\images\func01.png)
+![1574993953876](C:\Users\67564\Desktop\面试\Frontend-interview\images\func01.png)
 
 15.2 参数覆盖匿名函数名称
 
-![func02](C:\Users\67564\Desktop\面试\images\func02.png)
+![func02](C:\Users\67564\Desktop\面试\Frontend-interview\images\func02.png)
 
 ### 16、隐式数据类型转换
 
-![1574994420864](C:\Users\67564\Desktop\面试\images\type00.png)
+![1574994420864](C:\Users\67564\Desktop\面试\Frontend-interview\images\type00.png)
 
-![1574994640741](C:\Users\67564\Desktop\面试\images\type01.png)
+![1574994640741](C:\Users\67564\Desktop\面试\Frontend-interview\images\type01.png)
 
 ```javascript
 /* var a=?
@@ -391,9 +399,9 @@ Object.defineProperties(window, 'a', {
 
 ### 17、重写数组的`Push`方法
 
-![1574995701807](C:\Users\67564\Desktop\面试\images\arr07.png)
+![1574995701807](C:\Users\67564\Desktop\面试\Frontend-interview\images\arr07.png)
 
-![](C:\Users\67564\Desktop\面试\images\arr08.png)
+![](C:\Users\67564\Desktop\面试\Frontend-interview\images\arr08.png)
 
 ### 18 、冒泡排序
 
@@ -471,4 +479,6 @@ Object.defineProperties(window, 'a', {
  console.log(quick(arr1));
  console.log('====================================');
 ```
+
+### 21 选择排序
 
