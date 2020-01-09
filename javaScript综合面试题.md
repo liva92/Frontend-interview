@@ -316,61 +316,61 @@ function $attr(property, value) {
 
 11.1使用ES6提供的`Array.prototype.flat` 和`new Set()`
 
-![1574824123405](https://github.com/liva92/Frontend-interview/blob/master/images/reg01.png)
+![1574824123405](images/reg01.png)
 
 11.2 将数组变为字符串
 
-![arr00](https://github.com/liva92/Frontend-interview/blob/master/images/arr00.png)
+![arr00](images/arr00.png)
 
 11.3调用`JSON.stringify`
 
-![arr01](https://github.com/liva92/Frontend-interview/blob/master/images/arr01.png)
+![arr01](images/arr01.png)
 
 11.4基于数组的`some()`方法判断
 
-![1574825672241](https://github.com/liva92/Frontend-interview/blob/master/images/arr02.png)
+![1574825672241](images/arr02.png)
 
 11.5 递归处理
 
-![1574826024914](https://github.com/liva92/Frontend-interview/blob/master/images/arr03.png)
+![1574826024914](images/arr03.png)
 
 
 
 ###  12、实现一个` _new`方法，模拟内置`new`的结果
 
-![1574827103802](https://github.com/liva92/Frontend-interview/blob/master/images/fn00.png)
+![1574827103802](images/fn00.png)
 
-![1574826920665](https://github.com/liva92/Frontend-interview/blob/master/images/fn.01.png)
+![1574826920665](images/fn.01.png)
 
 ### 13、数组合并
 
-![1574846311291](https://github.com/liva92/Frontend-interview/blob/master/images/arr04.png)
+![1574846311291](images/arr04.png)
 
 13.1用数组`includes`方法和索引记录
 
-![1574846565631](https://github.com/liva92/Frontend-interview/blob/master/images/arr05.png)
+![1574846565631](images/arr05.png)
 
-13.2 使用字符串`localeCompare()`方法![1574993199324](https://github.com/liva92/Frontend-interview/blob/master/images/arr06.png)
+13.2 使用字符串`localeCompare()`方法![1574993199324](images/arr06.png)
 
 ### 14、setTimeou异步处理
 
-![1574993600579](https://github.com/liva92/Frontend-interview/blob/master/images/asnys00.png)
+![1574993600579](images/asnys00.png)
 
 ### 15、匿名函数调用
 
 15.1 
 
-![1574993953876](https://github.com/liva92/Frontend-interview/blob/master/images/func01.png)
+![1574993953876](images/func01.png)
 
 15.2 参数覆盖匿名函数名称
 
-![func02](https://github.com/liva92/Frontend-interview/blob/master/images/func02.png)
+![func02](images/func02.png)
 
 ### 16、隐式数据类型转换
 
-![1574994420864](https://github.com/liva92/Frontend-interview/blob/master/images/type00.png)
+![1574994420864](images/type00.png)
 
-![1574994640741](https://github.com/liva92/Frontend-interview/blob/master/images/type01.png)
+![1574994640741](images/type01.png)
 
 ```javascript
 /* var a=?
@@ -397,9 +397,9 @@ Object.defineProperties(window, 'a', {
 
 ### 17、重写数组的`Push`方法
 
-![1574995701807](https://github.com/liva92/Frontend-interview/blob/master/images/arr07.png)
+![1574995701807](images/arr07.png)
 
-![08](https://github.com/liva92/Frontend-interview/blob/master/images/arr08.png)
+![08](images/arr08.png)
 
 ### 18 、冒泡排序
 
