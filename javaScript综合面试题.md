@@ -310,8 +310,6 @@ function $attr(property, value) {
 
 ### 10、正则给英语单词前后加空格
 
-C:\Users\67564\Desktop\面试\Frontend-interview\images
-
 ![reg00](C:\Users\67564\Desktop\面试\Frontend-interview\images\reg00.png)
 
 ### 11、数组扁平化及去重[1,2[2,4,[4,6,[7,8]]]]
