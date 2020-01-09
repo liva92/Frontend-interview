@@ -134,3 +134,79 @@ state.obj = { ...state.obj, newProp: 123 }
 
 ![1577172944080](C:\Users\67564\Desktop\面试\Frontend-interview\images\vue01.png)
 
+### 三、vue响应式原理
+
+<img src="C:\Users\67564\Desktop\面试\Frontend-interview\images\vue02.png" alt="vue02" style="zoom:60%;" />
+
++ 在 `new Vue()` 后， Vue 会调用`_init` 函数进行初始化，也就是init 过程，在 这个过程Data通过Observer转换成了getter/setter的形式，来对数据追踪变化，当被设置的对象被读取的时候会执行`getter` 函数，而在当被赋值的时候会执行 `setter`函数。
+
++ 当render function 执行的时候，因为会读取所需对象的值，所以会触发getter函数从而将Watcher添加到依赖中进行依赖收集。
+
++ 在修改对象的值的时候，会触发对应的`setter`， `setter`通知之前**依赖收集**得到的 Dep 中的每一个 Watcher，告诉它们自己的值改变了，需要重新渲染视图。这时候这些 Watcher就会开始调用 `update` 来更新视图。
+
+
+
+### 四、vue-router使用方式
+
+
+
+1:下载 
+
+`npm i vue-router -S`
+2:在main.js中引入 
+
+`import VueRouter from 'vue-router'`;
+3:安装插件
+
+`Vue.use(VueRouter)`;
+4:创建路由对象并配置路由规则 :
+
+`let router = new VueRouter({routes:[{path:'/home',component:Home}]})`;
+5:将其路由对象传递给Vue的实例，
+
+options中加入 `router:router`
+6:在app.vue中留坑 
+
+`<router-view></router-view>`
+
+```javascript
+
+import Vue from 'vue';
+import VueRouter from 'vue-router';
+//主体
+import App from './components/app.vue';
+import Home from './components/home.vue'
+//安装插件
+Vue.use(VueRouter); //挂载属性
+//创建路由对象并配置路由规则
+let router = new VueRouter({
+    routes: [
+        //一个个对象
+        { path: '/home', component: Home }
+    ]
+});
+//new Vue 启动
+new Vue({
+    el: '#app',
+    router
+    render: c => c(App),
+})
+
+//最后记得在在app.vue中“留坑”
+
+//app.vue中
+<template>
+    <div>
+        <!-- 留坑，非常重要 -->
+        <router-view></router-view>
+    </div>
+</template>
+<script>
+    export default {
+        data(){
+            return {}
+        }
+    }
+</script>
+```
+
